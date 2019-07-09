@@ -1,0 +1,44 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "jhipstemplate2",
+    "packageName": "ccfin.document.gen",
+    "packageFolder": "ccfin/document/gen",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "react",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "MjQ2YmMzNjJhN2ZiNzVkNTI5MDg1ZTQ1MGY5ODZkZDIxZTRjY2M0OTFiZGQzYzZhMmE4MDkyOTY4MjAwZjBmN2ZhMTZiNjA4NDRjODMzNmMxNGRiOWFhNjQ2OTY0YjQ5MDYzMWIwZWJjZjVhNWVhNTIwMWY2YzYwM2FhMThlMjA=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "GaryCas",
+  "repository-name": "AccountingDocumentGenerator"
+}
