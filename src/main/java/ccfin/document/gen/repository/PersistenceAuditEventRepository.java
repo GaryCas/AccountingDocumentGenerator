@@ -1,6 +1,6 @@
 package ccfin.document.gen.repository;
 
-import ccfin.document.gen.domain.PersistentAuditEvent;
+import ccfin.document.gen.domain.login.PersistentAuditEvent;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

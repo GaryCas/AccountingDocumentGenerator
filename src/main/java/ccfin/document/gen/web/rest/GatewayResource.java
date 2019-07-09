@@ -1,6 +1,6 @@
 package ccfin.document.gen.web.rest;
 
-import ccfin.document.gen.web.rest.vm.RouteVM;
+import ccfin.document.gen.web.rest.vm.login.RouteVM;
 
 import java.util.ArrayList;
 import java.util.List;

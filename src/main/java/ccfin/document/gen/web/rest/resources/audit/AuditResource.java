@@ -1,4 +1,4 @@
-package ccfin.document.gen.web.rest;
+package ccfin.document.gen.web.rest.resources.audit;
 
 import ccfin.document.gen.service.AuditEventService;
 

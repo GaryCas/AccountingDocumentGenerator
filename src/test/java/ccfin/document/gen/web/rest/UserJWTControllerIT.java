@@ -1,11 +1,12 @@
 package ccfin.document.gen.web.rest;
 
 import ccfin.document.gen.Jhipstemplate2App;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.repository.UserRepository;
 import ccfin.document.gen.security.jwt.TokenProvider;
 import ccfin.document.gen.web.rest.errors.ExceptionTranslator;
-import ccfin.document.gen.web.rest.vm.LoginVM;
+import ccfin.document.gen.web.rest.resources.account.UserJWTController;
+import ccfin.document.gen.web.rest.vm.login.LoginVM;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

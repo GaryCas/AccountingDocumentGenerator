@@ -1,7 +1,7 @@
 package ccfin.document.gen.service.mapper;
 
-import ccfin.document.gen.domain.Authority;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.Authority;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.service.dto.UserDTO;
 
 import org.springframework.stereotype.Service;

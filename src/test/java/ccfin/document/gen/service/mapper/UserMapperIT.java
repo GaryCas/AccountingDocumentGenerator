@@ -2,7 +2,7 @@ package ccfin.document.gen.service.mapper;
 
 
 import ccfin.document.gen.Jhipstemplate2App;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.service.dto.UserDTO;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.BeforeEach;

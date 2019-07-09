@@ -1,4 +1,4 @@
-package ccfin.document.gen.domain;
+package ccfin.document.gen.domain.login;
 
 import ccfin.document.gen.config.Constants;
 

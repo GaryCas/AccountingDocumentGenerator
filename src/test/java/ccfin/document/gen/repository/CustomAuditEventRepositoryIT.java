@@ -3,7 +3,7 @@ package ccfin.document.gen.repository;
 import ccfin.document.gen.Jhipstemplate2App;
 import ccfin.document.gen.config.Constants;
 import ccfin.document.gen.config.audit.AuditEventConverter;
-import ccfin.document.gen.domain.PersistentAuditEvent;
+import ccfin.document.gen.domain.login.PersistentAuditEvent;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

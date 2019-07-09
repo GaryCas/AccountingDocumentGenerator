@@ -1,7 +1,7 @@
-package ccfin.document.gen.web.rest;
+package ccfin.document.gen.web.rest.resources.account;
 
 import ccfin.document.gen.config.Constants;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.repository.UserRepository;
 import ccfin.document.gen.security.AuthoritiesConstants;
 import ccfin.document.gen.service.MailService;

@@ -1,8 +1,8 @@
-package ccfin.document.gen.web.rest;
+package ccfin.document.gen.web.rest.resources.account;
 
 import ccfin.document.gen.security.jwt.JWTFilter;
 import ccfin.document.gen.security.jwt.TokenProvider;
-import ccfin.document.gen.web.rest.vm.LoginVM;
+import ccfin.document.gen.web.rest.vm.login.LoginVM;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

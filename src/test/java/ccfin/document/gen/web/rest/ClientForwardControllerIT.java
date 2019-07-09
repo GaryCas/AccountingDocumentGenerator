@@ -1,6 +1,7 @@
 package ccfin.document.gen.web.rest;
 
 import ccfin.document.gen.Jhipstemplate2App;
+import ccfin.document.gen.web.rest.resources.ClientForwardController;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

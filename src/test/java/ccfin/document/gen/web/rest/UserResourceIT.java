@@ -1,8 +1,8 @@
 package ccfin.document.gen.web.rest;
 
 import ccfin.document.gen.Jhipstemplate2App;
-import ccfin.document.gen.domain.Authority;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.Authority;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.repository.UserRepository;
 import ccfin.document.gen.security.AuthoritiesConstants;
 import ccfin.document.gen.service.MailService;
@@ -10,7 +10,8 @@ import ccfin.document.gen.service.UserService;
 import ccfin.document.gen.service.dto.UserDTO;
 import ccfin.document.gen.service.mapper.UserMapper;
 import ccfin.document.gen.web.rest.errors.ExceptionTranslator;
-import ccfin.document.gen.web.rest.vm.ManagedUserVM;
+import ccfin.document.gen.web.rest.resources.account.UserResource;
+import ccfin.document.gen.web.rest.vm.login.ManagedUserVM;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

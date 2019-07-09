@@ -1,7 +1,7 @@
-package ccfin.document.gen.web.rest;
+package ccfin.document.gen.web.rest.resources.account;
 
 
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.repository.UserRepository;
 import ccfin.document.gen.security.SecurityUtils;
 import ccfin.document.gen.service.MailService;
@@ -9,8 +9,8 @@ import ccfin.document.gen.service.UserService;
 import ccfin.document.gen.service.dto.PasswordChangeDTO;
 import ccfin.document.gen.service.dto.UserDTO;
 import ccfin.document.gen.web.rest.errors.*;
-import ccfin.document.gen.web.rest.vm.KeyAndPasswordVM;
-import ccfin.document.gen.web.rest.vm.ManagedUserVM;
+import ccfin.document.gen.web.rest.vm.login.KeyAndPasswordVM;
+import ccfin.document.gen.web.rest.vm.login.ManagedUserVM;
 
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;

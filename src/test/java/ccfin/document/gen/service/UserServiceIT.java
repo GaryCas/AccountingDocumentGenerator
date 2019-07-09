@@ -2,7 +2,7 @@ package ccfin.document.gen.service;
 
 import ccfin.document.gen.Jhipstemplate2App;
 import ccfin.document.gen.config.Constants;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.repository.UserRepository;
 import ccfin.document.gen.service.dto.UserDTO;
 import ccfin.document.gen.service.util.RandomUtil;

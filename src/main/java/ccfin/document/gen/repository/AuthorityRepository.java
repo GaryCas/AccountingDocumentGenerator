@@ -1,6 +1,6 @@
 package ccfin.document.gen.repository;
 
-import ccfin.document.gen.domain.Authority;
+import ccfin.document.gen.domain.login.Authority;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

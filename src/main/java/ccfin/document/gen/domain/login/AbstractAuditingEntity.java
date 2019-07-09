@@ -1,4 +1,4 @@
-package ccfin.document.gen.domain;
+package ccfin.document.gen.domain.login;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.envers.Audited;

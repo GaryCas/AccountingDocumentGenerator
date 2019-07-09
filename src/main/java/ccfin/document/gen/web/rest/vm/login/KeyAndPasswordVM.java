@@ -1,4 +1,4 @@
-package ccfin.document.gen.web.rest.vm;
+package ccfin.document.gen.web.rest.vm.login;
 
 /**
  * View Model object for storing the user's key and password.

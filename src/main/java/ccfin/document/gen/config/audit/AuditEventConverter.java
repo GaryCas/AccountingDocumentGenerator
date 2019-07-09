@@ -1,6 +1,6 @@
 package ccfin.document.gen.config.audit;
 
-import ccfin.document.gen.domain.PersistentAuditEvent;
+import ccfin.document.gen.domain.login.PersistentAuditEvent;
 
 import org.springframework.boot.actuate.audit.AuditEvent;
 import org.springframework.security.web.authentication.WebAuthenticationDetails;

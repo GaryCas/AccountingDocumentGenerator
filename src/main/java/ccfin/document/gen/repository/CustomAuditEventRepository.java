@@ -2,7 +2,7 @@ package ccfin.document.gen.repository;
 
 import ccfin.document.gen.config.Constants;
 import ccfin.document.gen.config.audit.AuditEventConverter;
-import ccfin.document.gen.domain.PersistentAuditEvent;
+import ccfin.document.gen.domain.login.PersistentAuditEvent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

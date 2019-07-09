@@ -1,8 +1,8 @@
 package ccfin.document.gen.service;
 
 import ccfin.document.gen.config.Constants;
-import ccfin.document.gen.domain.Authority;
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.Authority;
+import ccfin.document.gen.domain.login.User;
 import ccfin.document.gen.repository.AuthorityRepository;
 import ccfin.document.gen.repository.UserRepository;
 import ccfin.document.gen.security.AuthoritiesConstants;

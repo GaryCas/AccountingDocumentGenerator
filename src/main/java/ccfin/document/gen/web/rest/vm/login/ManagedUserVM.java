@@ -1,4 +1,4 @@
-package ccfin.document.gen.web.rest.vm;
+package ccfin.document.gen.web.rest.vm.login;
 
 import ccfin.document.gen.service.dto.UserDTO;
 import javax.validation.constraints.Size;

@@ -1,4 +1,4 @@
-package ccfin.document.gen.web.rest;
+package ccfin.document.gen.web.rest.resources;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

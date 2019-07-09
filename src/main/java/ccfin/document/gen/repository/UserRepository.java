@@ -1,6 +1,6 @@
 package ccfin.document.gen.repository;
 
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.data.domain.Page;

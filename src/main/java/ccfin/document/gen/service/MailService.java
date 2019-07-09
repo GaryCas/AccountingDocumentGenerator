@@ -1,6 +1,6 @@
 package ccfin.document.gen.service;
 
-import ccfin.document.gen.domain.User;
+import ccfin.document.gen.domain.login.User;
 
 import io.github.jhipster.config.JHipsterProperties;
 

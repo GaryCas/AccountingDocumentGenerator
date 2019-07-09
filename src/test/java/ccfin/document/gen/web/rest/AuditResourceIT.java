@@ -2,10 +2,11 @@ package ccfin.document.gen.web.rest;
 
 import ccfin.document.gen.Jhipstemplate2App;
 import ccfin.document.gen.config.audit.AuditEventConverter;
-import ccfin.document.gen.domain.PersistentAuditEvent;
+import ccfin.document.gen.domain.login.PersistentAuditEvent;
 import ccfin.document.gen.repository.PersistenceAuditEventRepository;
 
 import ccfin.document.gen.service.AuditEventService;
+import ccfin.document.gen.web.rest.resources.audit.AuditResource;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.MockitoAnnotations;

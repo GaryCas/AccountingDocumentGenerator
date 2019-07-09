@@ -1,4 +1,4 @@
-package ccfin.document.gen.domain;
+package ccfin.document.gen.domain.login;
 
 import org.hibernate.annotations.Cache;
 import org.hibernate.annotations.CacheConcurrencyStrategy;
